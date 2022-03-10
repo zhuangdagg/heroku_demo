@@ -3,21 +3,14 @@
   "version": "0.0.1",
   "description": "heroku demo",
   "engines": {
-    "node": "14.14.0"
+    "node": "12.18.4"
   },
   "private": true,
   "main": "main.js",
   "scripts": {
-    "start": "node ./main.js"
+    "start": "node ./main"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhuangdagg/heroku_demo.git"
-  },
-  "author": "b",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zhuangdagg/heroku_demo/issues"
-  },
-  "homepage": "https://github.com/zhuangdagg/heroku_demo#readme"
+  "dependencies": {
+
+  }
 }
