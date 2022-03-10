@@ -6,7 +6,6 @@
     "node": "12.18.4"
   },
   "private": true,
-  "main": "main.js",
   "scripts": {
     "start": "node ./main"
   },
