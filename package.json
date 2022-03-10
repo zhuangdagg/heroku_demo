@@ -8,7 +8,7 @@
   "private": true,
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node ./main.js"
   },
   "repository": {
     "type": "git",
