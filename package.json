@@ -3,13 +3,17 @@
   "version": "0.0.1",
   "description": "heroku demo",
   "engines": {
-    "node": "12.18.4"
+    "node": "16.6.1"
   },
   "private": true,
   "scripts": {
-    "start": "node ./main"
+    "start": "node ./main",
+    "webRtc": "node ./package/webRTC/chatServer.js"
   },
   "dependencies": {
-
-  }
+    "websocket": "^1.0.34"
+  },
+  "workspaces": [
+    "package\\webRTC"
+  ]
 }
